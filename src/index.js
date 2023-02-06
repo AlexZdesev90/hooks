@@ -1,13 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import UseState from './UseState';
+// import UseEffect from './UseEffect';
+// import UseRef from './UseRef';
+// import UseMemo from './UseMemo';
+// import UseCallback from './UseCallback';
+// import UseContext from './UseContext';
+import MyHook from './MyHook';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <UseState /> */}
+    {/* <UseEffect /> */}
+    {/* <UseRef /> */}
+    {/* <UseMemo /> */}
+    {/* <UseCallback /> */}
+    {/* <UseContext /> */}
+    <MyHook/>
   </React.StrictMode>
 );
 
